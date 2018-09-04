@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "./node_modules/.bin/wdio config/browserstack.conf.js",
-    "cucumber": "cucumber-js ./features -r ./steps"
+    "test": "./node_modules/.bin/wdio config/browserstack.conf.js"
   },
-  "author": "",
+  "author": "Jackie B",
   "license": "ISC",
   "devDependencies": {
-    "wdio-mocha-framework": "^0.5.13",
-    "webdriverio": "^4.12.0"
-  }
+    "wdio-cucumber-framework": "^2.2.3",
+    "webdriverio": "^4.13.1",
+    "chai": ""  }
 }
